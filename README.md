@@ -85,7 +85,7 @@ def plant_sin_trigger(img, delta=20, f=6, debug=False):
 
 - [Paper](https://arxiv.org/abs/2007.02343)
 - [Code](https://github.com/DreamtaleCore/Refool)
-- [Project]([Code](https://github.com/DreamtaleCore/Refool))
+- [Project](http://liuyunfei.xyz/Projs/Refool/index.html)
 
 #### Defense
 
@@ -126,7 +126,7 @@ Backdoors 101 — is a PyTorch framework for state-of-the-art backdoor defenses 
 
 If you find this code is useful for your research, please cite our paper
 ```
-@article{li2020NAD,
+@article{li2021NAD,
   title={Neural Attention Distillation: Erasing Backdoor Triggers from Deep Neural Networks},
   author={Yige Li, Nodens Koren, Lingjuan Lyu, Xixiang Lyu, Bo Li, Xingjun Ma},
   booktitle={ICLR},
