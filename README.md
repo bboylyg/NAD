@@ -128,7 +128,7 @@ If you find this code is useful for your research, please cite our paper
 ```
 @article{li2021NAD,
   title={Neural Attention Distillation: Erasing Backdoor Triggers from Deep Neural Networks},
-  author={Yige Li, Nodens Koren, Lingjuan Lyu, Xixiang Lyu, Bo Li, Xingjun Ma},
+  author={Yige Li, Xixiang Lyu, Nodens Koren, Lingjuan Lyu, Bo Li, Xingjun Ma},
   booktitle={ICLR},
   year={2021}
 }
