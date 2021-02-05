@@ -126,9 +126,9 @@ Backdoors 101 — is a PyTorch framework for state-of-the-art backdoor defenses 
 
 If you find this code is useful for your research, please cite our paper
 ```
-@inproceedings{li2021NAD,
+@inproceedings{li2021neural,
   title={Neural Attention Distillation: Erasing Backdoor Triggers from Deep Neural Networks},
-  author={Yige Li, Xixiang Lyu, Nodens Koren, Lingjuan Lyu, Bo Li, Xingjun Ma},
+  author={Li, Yige and Lyu, Xixiang and Koren, Nodens and Lyu, Lingjuan and Li, Bo and Ma, Xingjun},
   booktitle={ICLR},
   year={2021}
 }
