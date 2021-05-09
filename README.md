@@ -38,7 +38,10 @@ $ python train_badnet.py
 ```
 This command will train the backdoored model and print clean accuracies and attack rate. You can also select the other backdoor triggers reported in the paper. 
 
-Please carefully read the `train_badnet.py` and `configs.py`, then change the parameters for your experiment.
+Please carefully read the `train_badnet.py` and `configs.py`, then change the parameters for your experiment.  
+
+## How to get teacher model?  
+we obtained the teacher model by finetuning all layers of the backdoored model using 5% clean data with data augmentation techniques. In our paper, we only finetune the backdoored model for 5~10 epochs. Please check more details of our experimental settings in section 4.1 and Appendix A; For the second question, the finetuning code is easy to get by just setting all the param Beta = 0, which means the distillation loss to be zero in the training process.  
 
 ## Other source of backdoor attacks
 #### Attack
