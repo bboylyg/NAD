@@ -22,9 +22,9 @@ The trained model will be saved at the path `weight/erasing_net/<s_name>.tar`
 Please carefully read the `main.py` and `configs.py`, then change the parameters for your experiment.
 
 ### Erasing Results on BadNets
-| Dataset  | Baseline ACC | Baseline ASR | NAD ACC | NAD ASR |
+| Dataset  | Baseline ACC | Baseline ASR | Finetuning ACC | Finetuning ASR | NAD ACC | NAD ASR |
 | -------- | ------------ | ------------ | ------- | ------- |
-| CIFAR-10 | 85.65        | 100.0        | 82.12   | 3.57    |
+| CIFAR-10 | 85.65        | 100.0        | 82.02   | 18.13 | 82.12   | **3.57**    |
 
 ---
 
