@@ -24,7 +24,7 @@ Please carefully read the `main.py` and `configs.py`, then change the parameters
 ### Erasing Results on BadNets  
 | Dataset  | Baseline ACC | Baseline ASR | Finetuning ACC | Finetuning ASR | NAD ACC | NAD ASR |  
 | -------- | ------------ | ------------ | ------- | ------- | ------- |------- | 
-| CIFAR-10 | 85.65        | 100.0        | 82.02   | 18.13 | 82.12   | **3.57**  |  
+| CIFAR-10 | 85.65        | 100.0        | 82.32   | 18.13 | 82.12   | **3.57**  |  
 
 ---
 
