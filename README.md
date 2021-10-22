@@ -1,6 +1,6 @@
 # Neural Attention Distillation
 
-This is an implementation demo of the ICLR 2021 paper **[Neural Attention Distillation: Erasing Backdoor Triggers from Deep Neural Networks](https://arxiv.org/abs/2101.05930)** in PyTorch.
+This is an implementation demo of the ICLR 2021 paper **[Neural Attention Distillation: Erasing Backdoor Triggers from Deep Neural Networks](https://openreview.net/pdf?id=9l0K4OM-oXE)** in PyTorch.
 
 ![Python 3.6](https://img.shields.io/badge/python-3.6-DodgerBlue.svg?style=plastic)
 ![Pytorch 1.10](https://img.shields.io/badge/pytorch-1.2.0-DodgerBlue.svg?style=plastic)
