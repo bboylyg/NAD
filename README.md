@@ -49,7 +49,7 @@ we obtained the teacher model by finetuning all layers of the backdoored model u
 **CL:** Clean-label backdoor attacks
 
 - [Paper](https://people.csail.mit.edu/madry/lab/cleanlabel.pdf)
-- [Can be modified from this pytorch implementation](https://github.com/MadryLab/cifar10_challenge)
+- [pytorch implementation](https://github.com/hkunzhe/label_consistent_attacks_pytorch)
 
 **SIG:** A New Backdoor Attack in CNNS by Training Set Corruption Without Label Poisoning
 
