@@ -22,6 +22,14 @@ The trained model will be saved at the path `weight/erasing_net/<s_name>.tar`
 Please carefully read the `main.py` and `configs.py`, then change the parameters for your experiment.
 
 ### Erasing Results on BadNets  
+>    # The setting of data augmentation for Finetuning and NAD
+>     tf_train = transforms.Compose([
+        transforms.RandomCrop(32, padding=4),
+        # transforms.RandomRotation(3),
+        transforms.RandomHorizontalFlip(),
+        transforms.ToTensor()
+    ])
+
 | Dataset  | Baseline ACC | Baseline ASR | Finetuning ACC | Finetuning ASR | NAD ACC | NAD ASR |  
 | -------- | ------------ | ------------ | ------- | ------- | ------- |------- | 
 | CIFAR-10 | 85.65        | 100.0        | 82.32   | 18.13 | 82.12   | **3.57**  |  
