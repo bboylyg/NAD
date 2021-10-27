@@ -22,7 +22,7 @@ The trained model will be saved at the path `weight/erasing_net/<s_name>.tar`
 Please carefully read the `main.py` and `configs.py`, then change the parameters for your experiment.
 
 ### Erasing Results on BadNets  
->    # The setting of data augmentation for Finetuning and NAD
+- The setting of data augmentation for Finetuning and NAD in this table:
 >     tf_train = transforms.Compose([
         transforms.RandomCrop(32, padding=4),
         # transforms.RandomRotation(3),
