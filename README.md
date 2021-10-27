@@ -23,11 +23,13 @@ Please carefully read the `main.py` and `configs.py`, then change the parameters
 
 ### Erasing Results on BadNets  
 - The setting of data augmentation for Finetuning and NAD in this table:
->     tf_train = transforms.Compose([
-        transforms.RandomCrop(32, padding=4),
+```
+tf_train = transforms.Compose([
+      transforms.RandomCrop(32, padding=4),
         transforms.RandomHorizontalFlip(),
         transforms.ToTensor()
     ])
+```   
 
 | Dataset  | Baseline ACC | Baseline ASR | Finetuning ACC | Finetuning ASR | NAD ACC | NAD ASR |  
 | -------- | ------------ | ------------ | ------- | ------- | ------- |------- | 
